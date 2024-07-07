@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noc Discounted Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            color: #fff;
+        }
+        h1 {
+            color: #1a73e8;
+            text-align: center;
+            margin-top: 100px;
+        }
+        .tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .tabs a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #1a73e8;
+            padding: 10px 20px;
+            border-radius: 5px 5px 0 0;
+            margin: 0 10px;
+            transition: background-color 0.3s ease;
+        }
+        .tabs a:hover {
+            background-color: #0d47a1;
+        }
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .product {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid #444;
+            border-radius: 5px;
+        }
+        .product img {
+            max-width: 50px;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product h3 {
+            font-size: 1.2em;
+            margin-top: 10px;
+            color: #1a73e8;
+        }
+        .product p {
+            margin-top: 5px;
+            color: #ccc;
+        }
+        .product .price {
+            font-weight: bold;
+            color: #f48fb1;
+        }
+        button {
+            background-color: #1a73e8;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0d47a1;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to Noc Discounted Shop</h1>
+
+    <div class="tabs">
+        <a href="#about">About Me</a>
+        <a href="#best-products">Best Products</a>
+        <a href="#store">Store</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div id="about" class="content">
+        <h2>About Me</h2>
+        <p style="color: #ccc;">Welcome to Noc Discounted Shop, your ultimate destination for discounted game points and gaming peripherals! At Noc Discounted Shop, we are passionate about gaming and committed to providing gamers with affordable access to their favorite games and gear.</p>
+
+        <p style="color: #ccc;">Established with the goal of making gaming more accessible, we offer a wide range of game points for various platforms and gaming peripherals at competitive prices. Whether you're looking to enhance your gaming experience with the latest peripherals or stock up on game points for your favorite titles, we've got you covered.</p>
+
+        <p style="color: #ccc;">Our team is dedicated to ensuring customer satisfaction by providing top-notch service and reliable products. We prioritize transparency and value, ensuring that every purchase from Noc Discounted Shop is a smart investment in your gaming enjoyment.</p>
+
+        <p style="color: #ccc;">Explore our catalog today and discover why Noc Discounted Shop is a preferred choice for gamers seeking quality, affordability, and convenience. Join our community of passionate gamers and elevate your gaming experience with Noc Discounted Shop!</p>
+    </div>
+
+    <div id="store" class="content">
+        <h2>Store</h2>
+
+        <div class="product">
+            <img src="https://images.sftcdn.net/images/t_app-icon-m/p/897348af-4d66-4e42-9157-6ff236b7aa86/4159749247/mobile-legends-bang-bang-vng-logo" alt="Mobile Legends">
+            <h3>Starlight Pass</h3>
+            <p>Starlight Member, or simply Starlight, is a monthly mission points system in which players can earn rewards based on their progress in earning starlight points. Players who subscribed a membership (Starlight Member or Starlight Member Plus) will receive an exclusive starlight skin and gain access to the premium prize pool.</p>
+            <p class="price">₱200.00 - <del>₱299.00</del></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxQAm65XhdcUoSG31emR2rBoXEad5gUUNdlQ&s" alt="Roblox">
+            <h3>Premium Membership</h3>
+            <p>Roblox Premium, successor to Builders Club, is a paid membership that gives users perks and benefits. Upon purchase users get their monthly Robux set on their tier level. New features are added to it over time. It was the successor to Builders Club, Roblox's original membership before Premium.</p>
+            <p class="price">₱600.00 - <del>₱500.00</del></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://yt3.googleusercontent.com/4yd18H4ALHVFfjPPAnOYviNXm2dmQcR2dZru10wXA3ZkPJRkEV6yCuIodHnhJGG2e6mCGio=s900-c-k-c0x00ffffff-no-rj" alt="Valorant Points">
+            <h3>Valorant Bundle</h3>
+            <p>Weapon Skins are cosmetics in VALORANT that modify the appearance of weapons. They can be bought from the store with VALORANT Points and, if eligible, can be upgraded using Radianite Points to further modify its appearance and effects.</p>
+            <p class="price">₱2500.00 - <del>₱3000.00</del></p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+    <div id="best-products" class="content">
+        <h2>Best Products</h2>
+
+        <div class="product">
+            <img src="https://www.pcworld.com/wp-content/uploads/2024/04/pcw08_Asus-Gaming-PC.jpg?quality=50&strip=all" alt="Gaming Setup">
+            <h3>Gaming Setup</h3>
+            <p>Motherboard: ASRock B660M Pro RS.</p>
+	        <p>Processor: Intel Core i5 13400F.</p>
+	        <p>Graphics card: AMD Radeon RX 7600.</p>
+	        <p>Cooler: Laminar RM1.</p>
+	        <p>Power supply: Be Quiet! Pure Power 12 M 650W.</p>
+	        <p>SSD: WD Black SN770 1TB.</p>
+	        <p>Case: Aerocool Zauron.</p>
+            <p class="price">₱100,000.00 - <del>₱150,000.00</del></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.secretlab.co/theme/common/home-featured-VALORANTREYNAJETT-lg.jpg" alt="Gaming Chair">
+            <h3>Secret Lab Gaming Chair</h3>
+            <p>Secretlab chairs were originally designed for the most demanding professional gamers who spent over 16 hours a day seated. But the myriad design decisions and ergonomic refinements we obsessed over will benefit anyone who spends long hours seated at their desk.</p>
+            <p class="price">₱15,000.00 - <del>₱20,000.00</del></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://i5.walmartimages.com/seo/Bestier-42-Gaming-Desk-PC-Computer-Office-Gamer-Table-Desk-with-LED-Lights-Monitor-Stand-in-Red_367043ca-6feb-4a93-aa8d-f0fa1ed270b3.3111a7abd3d7a72cf7854926e74a12b6.jpeg" alt="Gaming Table">
+            <h3>Gaming Table</h3>
+            <p>High-performance gaming desks for high-performance gaming. We have desks for gaming to accommodate 2-3 monitors and all your equipment. Get the space you need with everything at your fingertips and you can even customise the gaming surface. It’s time to take your gaming experience to the next level.</p>
+            <p class="price">₱10,000.00 - <del>₱17,000.00</del></p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+    <div id="contact" class="content" style="display: none;">
+        <h2>Contact Us!</h2>
+        <p style="color: #ccc;" >You can reach us via email at <a href="mailto:20231000413@feualabang.edu.ph">20231000413@feualabang.edu.ph</a>.</p>
+        <p style="color: #ccc;" >You can give us a call at <a href="tel:09266984219">09266984219</a>.</p>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var tabs = document.querySelectorAll(".tabs a");
+            tabs.forEach(function(tab) {
+                tab.addEventListener("click", function(event) {
+                    event.preventDefault();
+                    var target = this.getAttribute("href").substring(1);
+                    var content = document.getElementById(target);
+                    document.querySelectorAll(".content").forEach(function(section) {
+                        section.style.display = "none";
+                    });
+                    content.style.display = "block";
+                    tabs.forEach(function(tab) {
+                        tab.classList.remove("active");
+                    });
+                    this.classList.add("active");
+                });
+            });
+            tabs[0].click();
+        });
+    </script>
+
+</body>
+</html>
